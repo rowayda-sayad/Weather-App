@@ -21,8 +21,8 @@ import java.net.URI;
 import java.text.DecimalFormat;
 
 public class MainActivity extends AppCompatActivity {
-    private String API_KEY = "925d0ed7bf7bd8a985d4eee1d9d9eaa4";
-    private String Uri = "https://api.openweathermap.org/data/2.5/weather?q=Toronto&appid=925d0ed7bf7bd8a985d4eee1d9d9eaa4";
+    private String API_KEY = "YOUR API KEY";
+    private String Uri = "https://api.openweathermap.org/data/2.5/weather?q=Toronto&appid=YOUR API KEY";
     DecimalFormat df = new DecimalFormat("#.##");
 
     @Override
